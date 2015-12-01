@@ -1,0 +1,170 @@
+		body,nav,dl,dt,dd,p,h1,h2,h3,h4,ul,ol,li,input,button,textarea,footer{margin:0;padding:0;}
+		a { text-decoration:none;}
+		em{font-style:normal}
+		ul { list-style: none; }
+		html,body{
+			font-size: 24px;
+			overflow-x:hidden;
+			width: 100%;
+			background-color: #F2F2F2;
+			position: relative;
+		}
+		span,img{
+			display: inline-block;
+		}
+
+		header{
+			background: url(../images/simuhd.jpg) 0 0 no-repeat;
+			background-size:100% 100%;
+			width: 100%;
+			height: 20.125rem;
+			text-align: center;
+			margin-bottom: 1rem;
+		}
+		.hder{
+			height: 8.75rem;
+			margin:0 auto;
+			padding-top: 1.5rem;
+			width: 8.5rem;
+		}
+
+		.quan{
+			border:5px solid #3C4549;
+			border-radius:50% 50%;
+			height: 8.333rem;
+			width: 8.333rem;
+			position: absolute;
+			top:1.5rem; 
+		}
+		.hder-img{
+			border-radius:50% 50%;
+			height: 8.333rem;
+			width: 8.333rem;
+			
+		}
+		header span{
+			display: block;
+		}
+		.hder-info{
+			padding-top:1.5rem; 
+			color: #ffffff;
+			font-size:1.333rem;
+		}
+		.hder-t{
+			padding-top: .916rem;
+			font-size:1.083rem;
+		}
+		section{
+			padding:0 1rem; 
+			margin-bottom: 1rem;
+			background-color: #ffffff;
+
+		}
+		section>h2{ 
+			border-bottom: 1px solid #bcbcbc;
+			color: #545353;
+			font-size:1.333rem;
+			padding:1.25rem 0;
+
+		}
+		section>ul{
+
+			overflow: hidden;
+			clear: both;
+			padding-bottom:2.083rem; 
+
+		}
+		section>ul>li{
+			padding: 0 .625rem;
+			padding-top: 1.25rem;
+			float: left;
+			text-align: center;
+
+		}
+
+		section>ul>li>img{
+			border-radius:50% 50%;
+			width: 5.833rem;
+			height: 5.833rem;
+		}
+		section>ul>li>span{
+			display: block;
+			color: #1e2755;
+			font-size:1.166rem; 
+			padding-top:.625rem; 
+		}
+		.item>ul{
+			background: url(../images/ptcl.jpg) .416rem 1.458rem no-repeat;
+			-webkit-background-size: .5rem 10rem;
+			background-size: .5rem 10rem;
+			padding-left: .833rem;
+		}
+		.item>ul>li{
+			color: #5a5e71;
+			font-size: 1.083rem;
+			text-align: left;
+			padding-top:1.166rem;
+			padding-bottom:0;  
+		}
+		.fund>article{
+			color: #5a5e71;
+			font-size: 1.083rem
+		}
+
+		.member>ul{
+			padding-bottom: .833rem;
+		}
+		.member>ul>li{
+			float: none;
+			text-align: left;
+			display: block;
+			color: #5a5e71;
+			font-size: 1rem;
+			border-bottom: 1px dashed #d1d1d1;
+			height: 2.5rem;
+			padding-left:.375rem; 
+		}
+		.member>span{
+			color: #9c9c9c;
+			display: block;
+			font-size: 1rem;
+			text-align: center;
+			padding-bottom: .5rem;
+		}
+		.baoming{
+			width: 5rem;
+			height: 5rem;
+			border-radius: 50% 50%; 
+			background: url(../images/baoming.png) center no-repeat;
+			-webkit-background-size: 5.666rem 5.666rem;
+			background-size: 5.666rem 5.666rem;
+			position: absolute;
+			right: 1.333rem;
+			bottom: 1.25rem;
+		}
+		.beij{
+			width: 100%;
+			height: 12.5rem;
+			background: url(../images/zhansi.jpg)  center no-repeat;
+			background-size: 28.583rem 10rem; 
+			-webkit-background-size: 28.583rem 10rem; 
+
+		}
+		.atcl{
+			width: 100%;
+		}
+		.fund>div>article{
+			color: #5a5e71;
+			font-size: 1.083rem;
+			padding-bottom:2.5rem; 
+			margin:0 auto;
+			width: 28.583rem;
+		}
+		.mask{
+			background-color: rgba(0,0,0,.5);
+			display: none;
+			position: absolute;
+			top:0;
+			width: 100%;
+			height: 100%;
+		}

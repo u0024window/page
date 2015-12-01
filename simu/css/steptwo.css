@@ -1,0 +1,79 @@
+		body,nav,dl,dt,dd,p,h1,h2,h3,h4,ul,ol,li,input,button,textarea,footer{margin:0;padding:0;}
+		a { text-decoration:none;}
+		em{font-style:normal}
+		ul  { list-style: none; }
+
+		.steptwo{
+			position: absolute;
+			bottom: 12.5rem;
+			left: 1.458rem;
+			padding:2.08rem 1.875rem;
+			width: 25.25rem;
+			border-radius:.416rem; 
+			background-color: #ffffff;
+		}
+		.steptwo-hder{
+			color: #2B2B2B;
+			font-size:1.375rem;
+			border-bottom: 1px dashed #0B0306;
+			padding-bottom:1.25rem; 
+		}
+		.steptwo .guize{
+			font-size:1.083rem; 
+			padding: 0 .5rem;
+			vertical-align:middle;
+		}
+		.steptwo .guize-c{
+			font-size:1.083rem; 
+			font-weight: normal;
+			height: 1.833rem;
+			width: 16.333rem;
+			border-radius:.25rem; 
+			padding-left:.416rem; 
+			border: 1px solid #b3b3b3;
+
+		}
+		.steptwo-mid{
+			padding-top: 1.25rem;
+			text-align: center;
+
+		}
+		.steptwo-mid-o{
+			color: #2B2B2B;
+			font-size:.875rem; 
+			height: 2rem;
+			line-height: 2rem;
+			margin: 0 auto 1.041rem auto;
+
+		}
+
+		.steptwo-btn{
+			background-color:#E32828 !important; 
+			color: #ffffff;
+			font-size:1.291rem; 
+			display: block;
+			width: 25rem;
+			height: 3.125rem;
+			
+			margin-right: 0;
+			margin:1.25rem auto;
+			border-radius:.416rem; 
+			text-align: center;
+			line-height: 3.125rem;
+			border:0 none;
+		}
+		.steptwo .close{
+			background:url(../images/close.jpg) center no-repeat; 
+			-webkit-background-size: 100% 100%;
+			background-size: 80% 80%;
+			float: right;
+			display: inline-block;
+			width: 1.7rem;
+			height: 1.7rem;
+			cursor:pointer;
+		}
+		.steptwo .zhuyi{
+			color: #E32828;
+			font-size:.833rem; 
+			text-align: center;
+		}

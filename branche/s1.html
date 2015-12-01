@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" id="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" >
+	<title>s1</title>
+	<style>
+		body,nav,dl,dt,dd,p,h1,h2,h3,h4,ul,ol,li,input,button,textarea,footer{margin:0;padding:0;}
+		a { text-decoration:none;}
+		em{font-style:normal}
+		ul  { list-style: none; }
+		button{}
+		html,body{
+			font-size: 24px;
+			overflow-x:hidden;
+			width: 100%;
+			background-color: #000;
+		}
+
+
+
+
+		.container{
+			margin:100px auto;
+			border: 1px dashed #0B0306;
+			width: 800px;
+		}
+		.stepone{
+			padding:50px 45px;
+			width: 700px;
+			border-radius:10px; 
+			background-color: #ffffff;
+			
+		}
+		.stepone-hder{
+			color: #2B2B2B;
+			font-size:33px;
+			border-bottom: 1px dashed #0B0306;
+			padding-bottom:30px; 
+		}
+		.guize{
+			font-weight:bold;
+		}
+		.stepone-mid{
+			padding-left: 30px;
+			padding-top: 30px;
+		}
+		.stepone-mid-o{
+			color: #2B2B2B;
+			font-size:21px;
+			font-style:bold; 
+			margin-bottom: 25px;
+		}
+		.stepone-mid-t{
+			border: 1px solid #bababa;
+			border-radius:10px; 
+			padding:12px; 
+		}
+		.stepone-mid-t>article{
+			display: none;
+		}
+		.stepone-ptcl>em{
+			color: #0863C0;
+			font-size:18px; 
+		}
+		.stepone-ptcl>input{
+			color: #0863C0;
+		}
+		.stepone-ptcl>span{
+			color: #2B2B2B;
+			font-size:18px; 
+		}
+		.stepone-mid-t>article>p{
+			color: #2B2B2B;
+			font-size:17px; 
+			padding-top: 30px;
+		}
+		.stepone-btn{
+			color: #ffffff;
+			font-size:31px; 
+			display: block;
+			width: 600px;
+			height: 75px;
+			background-color:#E32828; 
+			margin:30px auto;
+			border-radius:10px; 
+		}
+	</style>
+	<script>
+		onload = function(){
+			var chkbox = document.querySelector(".stepone-ptcl input");
+			var  article = document.querySelector(".stepone-mid-t>article");
+			console.log(chkbox);
+			chkbox.addEventListener('click',function(){
+				if(chkbox.checked){
+					article.style.display = 'inline-block';
+				}else{
+					article.style.display = 'none';
+				}
+			});
+			
+		}
+	</script>
+</head>
+<body>
+		<div class="container">
+			<div class="stepone">
+				<h2 class="stepone-hder">投资规则<span>X</span></h2>
+				<section class="stepone-mid">
+					<p class="stepone-mid-o">
+						<span class="guize">领投规则：</span>
+						<span class="guize-c">正和新融1号产品诚邀八位企业家共同组成领投团队，每份500万元人民币，每位企业家最多可申请两份。</span>
+					</p>
+					<p class="stepone-mid-o">
+						<span class="guize">跟投规则：</span>
+						<span class="guize-c">每份100万元人民币，每位企业家跟投不超过三份。</span>
+					</p>
+					<div class="stepone-mid-t">
+						<div class="stepone-ptcl">
+							<input type="checkbox" value="">
+							<em>《产品协议及须知》</em>
+							<span>请仔细阅读并勾选该项</span>
+						</div>
+						
+						<article>
+							<p>根据《私募投资基金监督管理暂行办法》第四章第十四条规定：“ 私募基金管理人、私募基金销售机构不得向合格投资者之外的单位和个人募集资金，不得通过报刊、电台、电视、互联网等公众传播媒体或者讲座、报告会、分析会和布告、传单、手机短信、微信、博客和电子邮件等方式，向不特定对象宣传推介。”</p>
+
+							<p>对路APP谨遵《私募投资基金监督管理暂行办法》规定，只向特定的合格投资者宣传推介相关私募投资基金产品。</p>
+
+							<p>阁下如有意进行私募投资基金投资且满足《私募投资基金监督管理暂行办法》关于“合规投资者”标准的规定，即具备相应风险识别能力和风险承担能力，投资单只私募基金的金额不低于100 万元，且个人金融类资产不低于300万元或者最近三年个人年均收入不低于50万元人民币。请阁下详细阅读本提示，并注册申请成为对路APP特定的合规投资者，方可获得本产品的宣传推介服务。</p>
+
+							<p>此产品为私募基金产品，仅可以向合格投资者进行推介，请确认。</p>
+
+						</article>
+					</div>
+				</section>
+				<button class="stepone-btn">下一步</button>
+			</div>
+		</div>
+</body>
+</html>
